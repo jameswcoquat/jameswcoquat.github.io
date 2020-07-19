@@ -1,0 +1,20 @@
+# Site settings
+author: James "Jay" Coquat
+title: Can I Become a Data Scientist?
+header-img: img/home-bg.png
+email: james.coquat@peopletec.com
+copyright_name: James "Jay" Coquat
+description: > # this means to ignore newlines until "baseurl:"
+  A Retired Veteran's Musings On a Midlife Career Pivot
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  jameswcoquat
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
